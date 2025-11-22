@@ -1,3 +1,3 @@
-const {moo} = require("./moo.js");
+import {moo} from "./moo.js";
 const name = "electre";
 console.log(moo(name));
