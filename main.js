@@ -1,3 +1,4 @@
 import {moo} from "./moo.js";
+import {say} from "cowsay";
 const name = "electre";
-console.log(moo(name));
+console.log(say({text:moo(name)}));
